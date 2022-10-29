@@ -1,0 +1,123 @@
+
+/* colors */
+
+@media only screen and (max-width: 767px) {
+    :root {
+        --font-md-size:20px;
+        --font-lg-size:22px;
+        --para-font-size:16px;
+        --big-header:40px;
+        --font-70:70px;
+        --big-header1: 40px;
+      }
+
+    .tab-content>.active {
+        display: block!important;
+    }
+
+    .service h2{
+        text-align: center;
+    }
+    .pricing__table {
+        padding: 0;
+        height: 450px;
+        text-align: center;
+    }
+
+    .plan1 .cta_btn,.plan2 .cta_btn,.plan3 .cta_btn{
+        width: 120px;
+    }
+    .main-logo{
+        width: 100%;
+    }
+    .who-we-title h2{
+        font-size: var(--font-md-size);
+    }
+    .main_title{
+        margin-top: 15px;
+        font-size: var(--font-lg-size);
+    }
+    .who-we-header{
+        height: 230px;
+        margin-top: 76px;
+    }
+
+
+    .thanksBackground{ 
+        height: 60vh;
+        margin-top: 0;
+    }
+    .thanksBackground .thank {
+        height: 60vh;
+        align-items: center;
+    }
+    .thank .main_title{
+        font-size: 16px;
+    }
+
+    .footer-text{
+        width: 100%;
+    }
+    .footer-widget{
+        margin-bottom: 0!important;
+    }
+    .list-unstyled{
+        margin-bottom: 1.5rem;
+    }
+
+    .nav-pills .nav-link.active{
+        width: 251px;
+    }
+    .conact-details {
+        padding: 0px!important;
+    }
+    .banner-text-animate {
+        width: 100%;
+        margin: 5rem auto!important;
+        text-align: center;
+        padding-left: 9rem;
+        padding-right: 1.9rem;
+    }
+    .banner-text-animate h2 {
+        font-size: 18px;
+    }
+    .slide-img{
+    height: 30vh;
+    width: auto;
+    background-size: cover;
+    }
+    .sec-sec{
+        min-height: 240px;
+    }
+    .col-text{
+        margin: 0;
+        text-align: unset;
+        padding: 0;
+    }
+
+  }
+
+
+   /* ipad */
+
+@media only screen  and (min-width: 768px) and (max-width: 1024px){
+    :root {
+        --font-md-size:20px;
+        --font-lg-size:22px;
+        --para-font-size:16px;
+        --big-header:40px;
+        --font-70:70px;
+        --big-header1: 40px;
+      }
+    .slide-img{
+        height: 30vh;
+        width: auto;
+        background-size: cover;
+        }
+        .col-text {
+            z-index: 0;
+            margin-top: 10%;
+        }
+
+
+}
